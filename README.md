@@ -34,6 +34,6 @@ This project explores multiple approaches for fundus-to-visual-field synthesis:
 #result
 
  # sample output
- 
+ https://github.com/Rajachandru/Fundus-image-to-vf-synthesis/blob/df9b27f3c771ba43acfdc046629e9773048222e8/sample_output.png
 
  
