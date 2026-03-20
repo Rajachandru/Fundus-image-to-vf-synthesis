@@ -30,4 +30,10 @@ This project explores multiple approaches for fundus-to-visual-field synthesis:
  `vf synthesis_without_pso.ipynb` → Without PSO
  `pretrained model for vf synthesis.ipynb` → Pretrained inference
 
+
+#result
+
+ # sample output
+ 
+
  
