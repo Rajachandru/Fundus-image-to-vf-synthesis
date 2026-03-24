@@ -11,6 +11,38 @@ fundus to vf synthesis project
 
 ---
 
+##Descriptions
+
+### 1. Base Model for VF Synthesis (`base_model_for_vf_synthesis.ipynb`)
+Implements the baseline pipeline for synthesizing Visual Field (VF) data from fundus images using a Vision Transformer (ViT) encoder and Conditional Diffusion Probabilistic Model (CDPM). Uses conventional loss functions to establish a performance benchmark.
+
+---
+
+### 2. Model with Reliability Weights (`model_with_reliability_weights.ipynb`)
+Enhances the base model by incorporating reliability-weighted loss. This approach assigns different importance to training samples based on their reliability, improving robustness and handling noisy or uncertain data.
+
+---
+
+### 3. Model with Contrastive Loss (`model_with_contrastive_loss.ipynb`)
+Introduces contrastive learning to improve feature representation. The model learns better structural relationships between fundus images and VF outputs, leading to improved generalization and prediction accuracy.
+
+---
+
+### 4. Model with PSO Optimization (`model_with_pso_optimization.ipynb`)
+Applies Particle Swarm Optimization (PSO) to automatically tune model hyperparameters such as contrast temperature and loss weights. This results in optimized performance compared to manual tuning.
+
+---
+
+### 5. Model with only Optimized Parameters (`model_with_only_optimized_parameters.ipynb`)
+Uses manually tuned optimal parameters (derived from PSO experiments) without running the optimization process again. Serves as a comparison to evaluate the effectiveness of PSO.
+
+---
+
+### 6. Pretrained Model (`pretrained_model.ipynb`)
+Loads a pretrained ViT + CDPM model and performs inference on test data. Includes evaluation metrics (MSE, MAE, RMSE, Pearson correlation) and generates synthesized VF outputs for analysis.
+
+---
+
 ## Experiments (Multiple Models)
 
 This project explores several model variants for fundus-to-visual-field synthesis:
