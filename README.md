@@ -43,30 +43,6 @@ Loads a pretrained ViT + CDPM model and performs inference on test data. Include
 
 ---
 
-## Experiments (Multiple Models)
-
-This project explores several model variants for fundus-to-visual-field synthesis:
-
-- **Base Model for VF Synthesis** → ViT + CDPM with conventional loss  
-- **Model with Reliability Weights** → ViT + CDPM with reliability-weighted loss  
-- **Model with Contrastive Loss** → ViT + CDPM with contrastive loss  
-- **Model with PSO Optimization** → ViT + CDPM with optimized parameters (PSO)  
-- **Model with only optimized parameters** → ViT + CDPM with manually tuned parameters  
-- **Pretrained Model** → ViT + CDPM for inference/testing only  
-
----
-
-## Files
-
-- `base_model_for_vf_synthesis.ipynb` → Base Model for VF Synthesis  
-- `model_with_reliability_weights.ipynb` → Model with Reliability Weights  
-- `model_with_contrastive_loss.ipynb` → Model with Contrastive Loss  
-- `model_with_pso_optimization.ipynb` → Model with PSO Optimization  
-- `model_with_only_optimized_parameters.ipynb` → Model with only optimized parameters  
-- `pretrained_model.ipynb` → Pretrained Model  
-
----
-
 ## Outputs
 
 | Model | Objective | Algorithm |
