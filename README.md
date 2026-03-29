@@ -7,7 +7,27 @@ fundus to vf synthesis project
 - Design and evaluate multiple model variations using advanced loss functions and optimization techniques (contrastive loss, reliability weighting, PSO).  
 - Leverage multimodal data (Fundus images, Visual Field data, and Intraocular Pressure) to improve prediction accuracy.  
 - Analyze and compare model performance using evaluation metrics such as MSE.  
-- Build a prototype pipeline that can support future clinical applications for glaucoma monitoring.  
+- Build a prototype pipeline that can support future clinical applications for glaucoma monitoring.
+---
+
+---
+
+# Dataset
+
+### Retrospective Dataset for Usability Testing
+- Grape dataset: 1261 Fundus and VF pairs
+  - Includes:
+    - Age
+    - Sex
+    - CCT
+    - Longitudinal details
+- Available in Reference [11] in PPT
+
+### Prospective Dataset for User-Acceptance Testing
+- Real-time hospital paired data (Fundus–VF)
+- Stored in this repository:
+  1. Fundus Images from Hospital - Prospective Data
+  2. VFs (paired to Fundus Images) from Hospital - Prospective Data
 
 ---
 
@@ -55,20 +75,7 @@ Loads a pretrained ViT + CDPM model and performs inference on test data. Include
 | Pretrained Model | VF synthesis from fundus image | ViT + CDPM for inference/testing only |
 
 ---
-Retrospective Dataset for Usability Testing
-Grape Dataset: 1261 Fundus and Visual Field (VF) pairs
-Includes additional information:
-Age
-Sex
-Central Corneal Thickness (CCT)
-Other secondary and longitudinal details
-The dataset can be downloaded from the URL provided in Reference [11] in the project PPT
----
-Prospective Dataset for User-Acceptance Testing
-Real-time hospital data consisting of paired Fundus and VF images
-Available directly in this repository under the following folders:
-1.Fundus Images from Hospital - Prospective Data
-2.VFs (paired to Fundus Images) from Hospital - Prospective Data
+
 ---
 <img width="940" height="412" alt="image" src="https://github.com/user-attachments/assets/58c237ff-3bf3-4c28-a77a-29884a8a8e34" />
                            A preview of the prospective data collected for User Acceptance testing
