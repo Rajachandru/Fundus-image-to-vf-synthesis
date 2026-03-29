@@ -17,10 +17,7 @@ fundus to vf synthesis project
 ### Retrospective Dataset for Usability Testing
 - Grape dataset: 1261 Fundus and VF pairs
   - Includes:
-    - Age
-    - Sex
-    - CCT
-    - Longitudinal details
+    - (Age ,Sex, CCT, Longitudinal details)
 - Available in Reference [11] in PPT
 
 ### Prospective Dataset for User-Acceptance Testing
