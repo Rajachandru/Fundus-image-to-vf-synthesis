@@ -55,16 +55,21 @@ Loads a pretrained ViT + CDPM model and performs inference on test data. Include
 | Pretrained Model | VF synthesis from fundus image | ViT + CDPM for inference/testing only |
 
 ---
-Dataset:
-Retrospective Dataset for Usability Testing :
-
--•	Grape dataset: 1261 Fundus and VF pairs.
--o	(Including other secondary (age, sex, CCT, etc.,) and longitudinal details 
--o	Can be downloaded from the URL in reference [11] in the PPT
-
-Prospective Dataset for User-acceptance Testing :
--•	We have collected real-time hospital paired data (Fundus-VF) and saved in this github in the folders "Fundus Images from Hospital - Prospective Data" and "VFs (paired to Fundus Images) from Hospital - Prospective Data"
-
+Retrospective Dataset for Usability Testing
+Grape Dataset: 1261 Fundus and Visual Field (VF) pairs
+Includes additional information:
+Age
+Sex
+Central Corneal Thickness (CCT)
+Other secondary and longitudinal details
+The dataset can be downloaded from the URL provided in Reference [11] in the project PPT
+---
+Prospective Dataset for User-Acceptance Testing
+Real-time hospital data consisting of paired Fundus and VF images
+Available directly in this repository under the following folders:
+1.Fundus Images from Hospital - Prospective Data
+2.VFs (paired to Fundus Images) from Hospital - Prospective Data
+---
 <img width="940" height="412" alt="image" src="https://github.com/user-attachments/assets/58c237ff-3bf3-4c28-a77a-29884a8a8e34" />
                            A preview of the prospective data collected for User Acceptance testing
 
