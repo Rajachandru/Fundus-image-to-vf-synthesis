@@ -81,7 +81,6 @@ Loads a pretrained ViT + CDPM model and performs inference on test data. Include
 
 
 ---
-#result
 
  # sample output
  https://github.com/Rajachandru/Fundus-image-to-vf-synthesis/blob/df9b27f3c771ba43acfdc046629e9773048222e8/sample_output.png
