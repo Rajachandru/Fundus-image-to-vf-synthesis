@@ -30,6 +30,12 @@ fundus to vf synthesis project
   2. VFs (paired to Fundus Images) from Hospital - Prospective Data
 
 ---
+<img width="940" height="412" alt="image" src="https://github.com/user-attachments/assets/58c237ff-3bf3-4c28-a77a-29884a8a8e34" />
+                 -A preview of the prospective data collected for User Acceptance testing
+
+                                   
+
+---
 
 ##Descriptions
 
@@ -74,11 +80,6 @@ Loads a pretrained ViT + CDPM model and performs inference on test data. Include
 | Model with only optimized parameters | VF synthesis from fundus image | ViT + CDPM with manually tuned parameters |
 | Pretrained Model | VF synthesis from fundus image | ViT + CDPM for inference/testing only |
 
----
-
----
-<img width="940" height="412" alt="image" src="https://github.com/user-attachments/assets/58c237ff-3bf3-4c28-a77a-29884a8a8e34" />
-                           A preview of the prospective data collected for User Acceptance testing
 
 
 ---
